@@ -1,7 +1,11 @@
 {
   "name": "perkedprotoapp",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "karma-chai": "0.0.2",
+    "mocha": "~1.14.0",
+    "karma-mocha": "~0.1.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
