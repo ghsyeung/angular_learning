@@ -12,6 +12,10 @@ angular.module('perkedProtoAppApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/gl', {
+        templateUrl: 'views/gratitude_list.html',
+        controller: 'GratitudeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
